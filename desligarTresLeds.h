@@ -23,3 +23,4 @@ void desligarTresLeds(){
     gpio_put(LED_AZUL, 0);
     gpio_put(LED_VERMELHO, 0);
 }
+
