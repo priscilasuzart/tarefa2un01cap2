@@ -33,7 +33,7 @@ Entrada: Digita o comando ‘r’
 Saída: o LED vermelho, conectado ao GPIO 13, é aceso  
 
 Link para o vídeo ensaio:  
-
+https://drive.google.com/file/d/1RPBtTyyKRJKymdo5Dlt_-wR4xixwsvE_/view?usp=sharing
 
 Projeto desenvolvido por:   
 Anna Luiza Rocha Neves  
