@@ -11,7 +11,7 @@
 #define BUZZER 21
 
 
-void LED_verde(){
+void LED_azul(){
   gpio_init(LED_VERDE);
   gpio_init(LED_AZUL);
   gpio_init(LED_VERMELHO);
@@ -20,11 +20,11 @@ void LED_verde(){
   gpio_set_dir(LED_AZUL, GPIO_OUT);
   gpio_set_dir(LED_VERMELHO, GPIO_OUT);
   gpio_set_dir(BUZZER, GPIO_OUT);
-  gpio_put(LED_VERDE, 1);
-  gpio_put(LED_AZUL, 0);
+  gpio_put(LED_VERDE, 0);
+  gpio_put(LED_AZUL, 1;
   gpio_put(LED_VERMELHO, 0);
   gpio_put(BUZZER, 0);
-  printf("\nLED Verde ativado\n");
+  printf("\nLED Azul ativado\n");
   sleep_ms(3000);
-  printf("\nLED Verde desativado\n");
+  printf("\nLED Azul desativado\n");
 }
